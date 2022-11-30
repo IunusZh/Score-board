@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Cursed-Times";
+  src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: url(court.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#new-game{
+    margin: 40px;
+    font-family: Cursed-Times;
+     background: black;
+    color: white;
+    padding: 5px 15px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#add1, #add2, #add3, #add4, #add5, #add6 {
+    font-family: Cursed-Times;
+    background: black;
+    color: white;
+    padding: 5px 15px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#home-score , #guest-score{
+    margin: 20px;
+    font-size: 80px;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    color: white;
+    padding: 20px 20px 0px 20px;
+    font-family: Cursed-Times;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0;
+    text-shadow: 5px -10px 20px black;
+}
